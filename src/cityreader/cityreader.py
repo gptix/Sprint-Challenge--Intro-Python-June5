@@ -83,18 +83,7 @@ def __main__():
 # In the example below, inputting 32, -120 first and then 45, -100 should not
 # change the results of what the `cityreader_stretch` function returns.    
     
-    
-    
-# def get_input():
-#     print("We need two pairs of lat/long coordinates.")
-#     print("Please enter a comma separated pair of latitude, longitude.")
-#     print("Example: 45, -100")
-#     corner_1 = input("~~~~~~~~~> ")
-#     validate_input(corner_1)
-#     print("Thanks. Please enter one more pair.")
-#     print("Example: 32, -120")
-#     corner_2 = input("~~~~~~~~~> ")
-
+# 
 
 # # In[9]:
 
@@ -127,43 +116,3 @@ def __main__():
 # # In[7]:
 
 
-# def validate_input(to_check):
-#     """Make sure that input is a string that can be parsed
-#     into two numbers.
-#     TODO: specific error messages
-#     TODO: range limits"""
-
-
-#     maybe_valid = [mv for mv in to_check.split(',')]
-#     # test that exactly two data were entered
-#     try:
-#         assert len(maybe_valid) == 2
-#     except:
-#         print("Please enter two numbers.")
-    
-#     lat, lon = maybe_valid
-#     # test that the first value can be converted to a float
-#     try:
-#         lat = float(lat)
-#     except:
-#         print(f'Could not ensure {lat} is a floating point number.')    
-#         print("Please enter two numbers.")
-
-#     # test that the second value can be converted to a float    
-#     try:
-#         lon = float(lon)
-#     except:
-#         print(f'Could not ensure {lon} is a floating point number.')
-#         print("Please enter two numbers.")
-        
-#     # test that the latitude entered is valid    
-#     try:
-#         -90 < lat < 90
-#     except:
-#         print(f'Latitude must be between -90 and 90.')
-        
-#     # test that the longitude entered is valid    
-#     try:
-#         -180 < lon < 180
-#     except:
-#         print(f'Longitude must be between -90 and 90.')
