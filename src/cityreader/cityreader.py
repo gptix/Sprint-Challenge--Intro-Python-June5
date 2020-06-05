@@ -66,7 +66,45 @@ def __main__():
     
     
     
+    # def get_lat_lon(): 
+
+#     inpt = input("Please provide a valid, comma separated pair, like:   34, -100").split(',')
+#     try:
+#         assert len(inpt) == 2    
+#         maybe_lat, maybe_lon = inpt
+#         try:
+#             maybe_lat = float(maybe_lat)
+#             try:
+#                 maybe_lon = float(maybe_lon)
+#                 try:
+#                     assert (maybe_lat >= 0 and maybe_lat <=90)
+#                     lat = maybe_lat
+#                     try:
+#                         assert (maybe_lon <= 0 and maybe_lon >= -180)
+#                         lon = maybe_lon
+#                         return (lat, lon)
+#                     except:
+#                         print ('Please enter a logitude between 0 and -180')                      
+#                 except:
+#                     print ('Please enter a latitude between 0 and 90.')          
+#             except:
+#                 print('Longitude is not numeric')         
+#         except:
+#             print('Latitude is not numeric')
+#     except: # wrong number of data
+#         print("Please input TWO numbers")
+
+        
     
+    
+# def get_input():
+#     corner_1 = get_lat_lon()
+#     corner_2 = get_lat_lon()
+#     west = min(corner_1)
+#     lat1 = co
+
+
+# get_input()
 
 # STRETCH GOAL!
 #
